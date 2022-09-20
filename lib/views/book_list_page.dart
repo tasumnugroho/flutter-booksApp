@@ -33,6 +33,8 @@ class _BookListPageState extends State<BookListPage> {
     } catch (e, s) {
       print(e);
       print(s);
+    } finally {
+      print('selesai');
     }
     // var response = await http.get(url);
 
