@@ -1,5 +1,3 @@
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/material.dart';
 
 class ImageViewScreen extends StatelessWidget {
@@ -13,7 +11,7 @@ class ImageViewScreen extends StatelessWidget {
           child: Stack(
         children: [
           Image.network(imageUrl),
-          BackButton(),
+          const BackButton(),
         ],
       )),
     );
